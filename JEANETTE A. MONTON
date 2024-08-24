@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">
+                Jeanette <span>Monton</span>
+            </a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi</h3>
+                <h1>Its me Jeanette A. Monton</h1>
+                <h3>I'm a  <span>BSIS-Student</span></h3>
+                <p>I am 28 years old, I currently live in Sta. Maria, Pagadian City.</p>
+
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+
+                <a href="index1.html" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="image/image1.png" alt="">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="image/image3.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>I'm a <span>4th Year Student in BSIS</span></h3>
+                <p>I'm  a student with a passion for technology and innovation. I'm excited to use my skills in software development to make a difference in the world.</p>
+                <h3>My <span>Leadership Journey</span></h3>
+                <p>As a Student Council Officer at ZDSPGC, I'm dedicated to serving my fellow students and building a more inclusive and engaged campus community. I believed in empowering others to reach their full potential and making a positive impact in everything I do.</p>
+                <a href="index1.html" class="btn">Read More</a>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Skills</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-block'></i>
+                    <h3>Web Development</h3>
+                    <p> 10% </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxs-pencil'></i>
+                    <h3>Web Design</h3>
+                    <p> 10% </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-line-chart'></i>
+                    <h3>Marketing</h3>
+                    <p> 50% </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxs-data'></i>
+                    <h3>Business Intelligence</h3>
+                    <p> 50% </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxs-report'></i>
+                    <h3>Documentation</h3>
+                    <p> 100% </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-palette'></i>
+                    <h3>Graphic Design</h3>
+                    <p> 80% </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My <span>Portfolio</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="image/9.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web Development</h4>
+                        <p> Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites. </p>
+                        <a href="#"><i class='bx bx-link'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="image/10.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web Design</h4>
+                        <p> Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript. </p>
+                        <a href="#"><i class='bx bx-link'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="image/11.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h4>Graphic Design</h4>
+                        <p> Graphic design is a profession, academic discipline and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives. Graphic design is an interdisciplinary branch of design and of the fine arts. </p>
+                        <a href="#"><i class='bx bx-link'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="image/5.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h4>Frontend Development</h4>
+                        <p> A front-end developer is a type of software developer who specializes in creating and designing the user interface (UI) and user experience (UX) of websites and web applications. The primary responsibility of a front-end developer is to ensure that the visual and interactive aspects of a website or application are user-friendly, aesthetically pleasing, and functionally efficient. </p>
+                        <a href="#"><i class='bx bx-link'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="image/4.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h4>Business Intelligence</h4>
+                        <p> Business intelligence is a broad term that encompasses data mining, process analysis, performance benchmarking, and descriptive analytics. BI parses all the data generated by a business and presents easy-to-digest reports, performance measures, and trends that inform management decisions. </p>
+                        <a href="#"><i class='bx bx-link'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="image/7.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h4>Marketing</h4>
+                        <p> A marketing in Information System is defined as a series of processes, software, and systems used by companies to help them analyze marketing data, customer information, and competitor data. It enables them to make informed decisions about their marketing strategies and campaigns. </p>
+                        <a href="#"><i class='bx bx-link'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id ="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Messages"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <ul class="list">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">
+                @ 2024 Jeanette Monton || All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
